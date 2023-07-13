@@ -1,0 +1,165 @@
+baseURL = 'https://romug.ro'
+languageCode = 'ro-RO'
+title = 'RomUG'
+theme = "LoveIt"
+#enable emoji - default = false
+enableEmoji = true
+
+[params.social]
+  linkedin = "company/romug"
+  twitter = "@RomanianUG"
+  facebook = "RomanianUG"
+  #meetup = "members/396952579/"
+  eventbrite = "https://www.eventbrite.com/e/romanian-user-group-tickets-677219470667"
+
+# determines default content language ["en", "ro",...]
+defaultContentLanguage = "ro"
+[languages]
+  [languages.ro]
+    weight = 1
+    title = "RomUG"
+    languageCode = "ro"
+    languageName = "Romana"
+    [languages.ro.menu]
+      [[languages.ro.menu.main]]
+        weight = 1
+        identifier = "events"
+        pre = ""
+        post = ""
+        name = "Evenimente"
+        url = "/events/"
+        title = ""
+      [[languages.ro.menu.main]]
+        weight = 2
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "Despre noi"
+        url = "/about/"
+        title = ""
+      [[languages.ro.menu.main]]
+        weight = 3
+        identifier = "sponsors"
+        pre = ""
+        post = ""
+        name = "Sponsori"
+        url = "/sponsors/"
+        title = ""
+      [[languages.ro.menu.main]]
+        weight = 4
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/romanianUG"
+        title = "GitHub"
+    [languages.ro.params.home]
+      #rss = 10
+      [languages.ro.params.home.profile]
+        subtitle = "RomUG - Connect, Empower, Innovate!"
+
+  [languages.en]
+    weight = 2
+    title = "RomUG"
+    languageCode = "en"
+    languageName = "English"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        weight = 1
+        identifier = "events"
+        pre = ""
+        post = ""
+        name = "Events"
+        url = "/events/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 2
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 3
+        identifier = "sponsors"
+        pre = ""
+        post = ""
+        name = "Sponsors"
+        url = "/sponsors/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 6
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/romanianUG"
+        title = "GitHub"
+    [languages.en.params.home]
+      #rss = 10
+      [languages.en.params.home.profile]
+        subtitle = "RomUG - Connect, Empower, Innovate!"
+      
+
+[params]
+  # site default theme ["auto", "light", "dark"]
+  defaultTheme = "auto"
+  # website title for Open Graph and Twitter Cards
+  title = "RomUG"
+  # website description for RSS, SEO, Open Graph and Twitter Cards
+  description = "Romanian User Group - Brings Romanian IT professionals passionate about Intune and ConfigMgr together"
+  # public git repo url only then enableGitInfo is true
+  #gitRepo = "https://github.com/dillonzq/LoveIt"
+
+  # Header config
+  [params.header]
+    # desktop header mode ["fixed", "normal", "auto"]
+    desktopMode = "fixed"
+    # mobile header mode ["fixed", "normal", "auto"]
+    mobileMode = "auto"
+
+    # Header title config
+    [params.header.title]
+      # URL of the LOGO
+      #logo = "/favicon.ico"
+      # title name
+      name = "Romanian User Group"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = "<i class='fas fa-solid fa-computer fa-fw' aria-hidden='true'></i>"
+
+  # Footer config
+  [params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    custom = "RomUG - Created using Hugo and hosted on GitHub"
+    # whether to show Hugo and theme info
+    hugo = false
+    # whether to show copyright info
+    copyright = true
+
+  # Home page config
+  [params.home]
+    # amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # URL of avatar shown in home page
+      avatarURL = "/avatar1.png"
+      # title shown in home page (HTML format is supported)
+      title = "Romanian User Group"
+      # subtitle shown in home page (HTML format is supported)
+      #subtitle = "RomUG - Connect, Empower, Innovate!"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+
+    # Home page posts events
+    [params.home.events]
+      enable = true
+      # special amount of posts in each home posts page
+      #paginate = 6
+
+    
