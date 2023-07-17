@@ -1,5 +1,5 @@
 baseURL = 'https://romug.ro'
-languageCode = 'ro-RO'
+languageCode = 'ro-ro'
 title = 'RomUG'
 theme = "LoveIt"
 #enable emoji - default = false
@@ -10,10 +10,12 @@ enableEmoji = true
   twitter = "@RomanianUG"
   facebook = "RomanianUG"
   #meetup = "members/396952579/"
-  eventbrite = "https://www.eventbrite.com/e/romanian-user-group-tickets-677219470667"
+  eventbrite = "https://www.eventbrite.com/o/romanian-user-group-68352661633"
 
 # determines default content language ["en", "ro",...]
-defaultContentLanguage = "ro"
+IsMultiLingual = true
+DefaultContentLanguage = "ro"
+DefaultContentLanguageInSubdir = false
 [languages]
   [languages.ro]
     weight = 1
