@@ -594,7 +594,7 @@ rss:
   Icon:
     Class: fas fa-rss fa-fw
 
-# Eventbrite
+# Eventbrite - custom added by Liviu
 eventbrite:
   Weight: 101
   Url: 

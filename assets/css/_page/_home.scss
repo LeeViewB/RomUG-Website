@@ -66,6 +66,7 @@
   }
 }
 
+/* Liviu changed the below line from posts to events*/
 .home[data-home=events] {
   .home-profile {
     @include transform(translateY(0));
@@ -74,6 +75,8 @@
 
   .home-avatar img {
     width: 6rem;
+    /* Liviu added the below line */
+    height: 6rem;
   }
 
   .summary {

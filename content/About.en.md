@@ -25,10 +25,12 @@ RomUG was founded in 2023 by [Liviu Barbat](https://www.linkedin.com/in/liviu-b-
 
 If you'd like to find out more about past or future events, make sure to follow us on:
 
-:point_right: Sign up on [EventBrite](https://www.eventbrite.com/e/romanian-user-group-tickets-677219470667)
+:point_right: [EventBrite](https://www.eventbrite.com/o/romanian-user-group-68352661633)
 
 :point_right: [Twitter](https://twitter.com/RomanianUG)
 
 :point_right: [LinkedIn](https://www.linkedin.com/company/romug)
 
 :point_right: [Facebook](https://www.facebook.com/RomanianUG)
+
+:point_right: [GitHub](https://github.com/romanianUG)

@@ -57,6 +57,10 @@ defaultContentLanguage = "ro"
       #rss = 10
       [languages.ro.params.home.profile]
         subtitle = "RomUG - Connect, Empower, Innovate!"
+    [languages.ro.params.footer]
+      enable = true
+      # Custom content (HTML format is supported)
+      custom = "RomUG - Creat cu ajutorul Hugo și hostat pe GitHub"
 
   [languages.en]
     weight = 2
@@ -104,14 +108,11 @@ defaultContentLanguage = "ro"
 
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   # website title for Open Graph and Twitter Cards
   title = "RomUG"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "Romanian User Group - Brings Romanian IT professionals passionate about Intune and ConfigMgr together"
-  # public git repo url only then enableGitInfo is true
-  #gitRepo = "https://github.com/dillonzq/LoveIt"
-
   # Header config
   [params.header]
     # desktop header mode ["fixed", "normal", "auto"]
@@ -132,7 +133,7 @@ defaultContentLanguage = "ro"
   [params.footer]
     enable = true
     # Custom content (HTML format is supported)
-    custom = "RomUG - Created using Hugo and hosted on GitHub"
+    custom = "RomUG - Created using Hugo and Netlify and hosted on GitHub"
     # whether to show Hugo and theme info
     hugo = false
     # whether to show copyright info
