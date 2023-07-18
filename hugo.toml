@@ -1,5 +1,4 @@
 baseURL = 'https://romug.ro'
-languageCode = 'ro-ro'
 title = 'RomUG'
 theme = "LoveIt"
 #enable emoji - default = false
@@ -13,9 +12,8 @@ enableEmoji = true
   eventbrite = "https://www.eventbrite.com/o/romanian-user-group-68352661633"
 
 # determines default content language ["en", "ro",...]
-IsMultiLingual = true
-DefaultContentLanguage = "ro"
-DefaultContentLanguageInSubdir = false
+defaultContentLanguage = "ro"
+languageCode = 'ro'
 [languages]
   [languages.ro]
     weight = 1
@@ -62,7 +60,7 @@ DefaultContentLanguageInSubdir = false
     [languages.ro.params.footer]
       enable = true
       # Custom content (HTML format is supported)
-      custom = "RomUG - Creat cu ajutorul Hugo și hostat pe GitHub"
+      custom = "RomUG - Creat cu ajutorul Hugo și hostat prin Netlify"
 
   [languages.en]
     weight = 2
@@ -135,7 +133,7 @@ DefaultContentLanguageInSubdir = false
   [params.footer]
     enable = true
     # Custom content (HTML format is supported)
-    custom = "RomUG - Created using Hugo and Netlify and hosted on GitHub"
+    custom = "RomUG - Created using Hugo and deployed through Netlify"
     # whether to show Hugo and theme info
     hugo = false
     # whether to show copyright info
