@@ -21,7 +21,7 @@ lightgallery: false
 
 ### Are you an IT Admin working with Microsoft Intune, Configuration Manager, and other services and apps from Microsoft?
 :loudspeaker: Then make sure you don't miss the second RomUG (Romanian User Group) event! 
-This time we will have as speakers Paul Vilcu, an experienced IT administrator joining us from Sibiu, Romania. Additionally, we will also have Scott MacAllister as a speaker, joining us from Scotland.
+This time we will have as speakers Paul Vilcu, an experienced IT administrator joining us from Sibiu, Romania. Additionally, we will also have Scott McAllister as a speaker, joining us from Scotland.
 
 
 {{< admonition >}}
